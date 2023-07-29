@@ -61,7 +61,7 @@ export default {
             var mythis = this;
             axios.post('http://localhost:8000/api/students', this.model.student)
             .then(res => {
-                console.log(res)
+                // console.log(res)
                 alert(res.data.message);
 
                 this.model.student =  {

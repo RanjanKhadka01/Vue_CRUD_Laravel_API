@@ -32,7 +32,7 @@ const router = createRouter({
     },
     {
       path: '/students/:id/edit',
-      name: 'studentCreate',
+      name: 'studentEdit',
       component: StudentEdit
     },
     
